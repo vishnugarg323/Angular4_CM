@@ -1,0 +1,18 @@
+<!--The whole content below can be removed with the new code.-->
+<div style="text-align:center" align="center" class = "main">
+  <h1>
+  {{title}}
+  </h1>
+  <div>
+  <img src="./../assets/images/mark.png" class="logo"> 
+  </div>
+  <form class="container" #loginForm = "ngForm" (ngSubmit) = "onSubmit(loginForm.value)">
+  <input type="text" placeholder="Username" name="username" ngModel><br>
+  <input type="password" placeholder="Password" name="password" ngModel><br>
+  <input type="text" placeholder="Station" name="station" ngModel><br>
+  <input type="submit" value="Login" class="loginButton">
+  </form>
+  
+</div>
+
+
